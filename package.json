@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-alfonz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Denis Homolik",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
