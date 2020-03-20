@@ -1,6 +1,6 @@
 const base = require('./rules/base');
-const react = require('./rules/base');
-const typescript = require('./rules/base');
+const react = require('./rules/react');
+const typescript = require('./rules/typescript');
 
 module.exports = {
   parser: '@typescript-eslint/parser',

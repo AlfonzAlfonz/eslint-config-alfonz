@@ -5,7 +5,7 @@ const Component: FC<any> = () => <div />;
 export const WithContainer: FC = () => (
   <Component
     onClick={() => {
-      console.log('click');
+      console.log("lick");
       console.log('hello');
     }}
     color="blue"
