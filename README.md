@@ -4,7 +4,7 @@ Strict eslint config with defined codestyle for use with typescript and React.
 
 ## Installation 
 ```
-yarn add -D eslint-config-alfonz @typescript-eslint/eslint-plugin@>=2 @typescript-eslint/parser eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard
+yarn add -D eslint eslint-config-alfonz @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard
 ```
 
 ## Example
