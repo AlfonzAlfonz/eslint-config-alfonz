@@ -7,13 +7,17 @@ module.exports = {
   "no-case-declarations": "off",
   "no-prototype-builtins": "off",
   "no-restricted-globals": ["error"].concat(confusingBrowserGlobals),
+  "no-unused-vars": "off",
+  "no-unused-expressions": "off",
+  "no-shadow": "error",
+  "no-undef": "off",
+  "no-console": ["error", { allow: ["warn", "error", "info", "trace", "clear"] }],
+  "no-void": "off",
+  "no-use-before-define": "off",
   "object-curly-spacing": ["warn", "always"],
   "space-before-blocks": ["warn", "always"],
   "max-statements-per-line": ["warn", { max: 1 }],
   "arrow-spacing": ["warn"],
-  "no-unused-vars": "off",
-  "no-unused-expressions": "off",
-  "no-shadow": "error",
   "max-len": [
     "warn",
     {
@@ -24,8 +28,7 @@ module.exports = {
       ignorePattern: '^\\s*\\w+(\\w|\\d)?=("|\').*("|\')$'
     }
   ],
-  "no-undef": "off",
-  "no-console": ["error", { allow: ["warn", "error", "info", "trace", "clear"] }],
+  "multiline-ternary": "off",
   "dot-location": "warn",
   "array-bracket-newline": ["warn", "consistent"],
   "array-element-newline": ["warn", "consistent"],

@@ -31,5 +31,6 @@ module.exports = {
   "react/no-deprecated": "error",
   "react/no-direct-mutation-state": "error",
   "react/display-name": "off",
-  "react/jsx-child-element-spacing": "error"
+  "react/jsx-child-element-spacing": "error",
+  "react/react-in-jsx-scope": "off"
 };

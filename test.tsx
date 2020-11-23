@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 const Component: FC<any> = () => <div />;
 
@@ -13,6 +13,19 @@ export const WithContainer: FC = () => (
     onClose={() => { console.log("close") }}
   >
     text
+    {a.length > 0
+      ? <Component />
+      : <Component />}
+
+    {a.length > 0 ? (
+      <div>
+        <Component />
+      </div>
+    ) : (
+      <div>
+        <Component />
+      </div>
+    )}
   </Component>
 );
 
@@ -24,3 +37,11 @@ const b = [
   3,
   4
 ];
+
+interface A {
+  b: B;
+}
+
+interface B {
+
+}
