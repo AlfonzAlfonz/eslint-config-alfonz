@@ -1,11 +1,12 @@
 {
   "name": "eslint-config-alfonz",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "main": "index.js",
   "author": "Denis Homolik",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint \"./**/*.{js,ts,tsx}\""
+    "lint": "eslint \"./**/*.{js,ts,tsx}\"",
+    "eslint-config-alfonz": "node install.js"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=2",
