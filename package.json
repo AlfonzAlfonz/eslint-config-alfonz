@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alfonz",
-  "version": "0.3.0",
+  "version": "1.0.0-dev.0",
   "main": "index.js",
   "author": "Denis Homolik",
   "license": "MIT",
