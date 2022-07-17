@@ -3,8 +3,18 @@
 Strict eslint config with defined codestyle for use with typescript and React.
 
 ## Installation 
-```
-yarn add -D eslint eslint-config-alfonz @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-standard
+```shell
+yarn add -D \
+  eslint@^8.20.0 \
+  eslint-config-alfonz@^1.0.0 \
+  @typescript-eslint/eslint-plugin@^5.30.6 \
+  @typescript-eslint/parser@^5.30.6 \
+  eslint-config-standard@^17.0.0 \
+  eslint-plugin-import@^2.26.0 \
+  eslint-plugin-n@^15.2.4 \
+  eslint-plugin-promise@^6.0.0 \
+  eslint-plugin-react@^7.30.1 \
+  eslint-plugin-react-hooks@^4.6.0
 ```
 
 ## Example

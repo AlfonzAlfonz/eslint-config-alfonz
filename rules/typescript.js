@@ -1,8 +1,26 @@
 module.exports = {
-  "@typescript-eslint/no-extra-parens": ["warn", "all", { ignoreJSX: "multi-line" }],
-  "@typescript-eslint/semi": ["warn", "always", { omitLastInOneLineBlock: true }],
-  "@typescript-eslint/member-delimiter-style": "warn",
   "@typescript-eslint/await-thenable": "error",
+  "@typescript-eslint/member-delimiter-style": "warn",
+  "@typescript-eslint/naming-convention": "off",
+  "@typescript-eslint/no-extra-non-null-assertion": "warn",
+  "@typescript-eslint/no-floating-promises": "error",
+  "@typescript-eslint/no-for-in-array": "error",
+  "@typescript-eslint/no-meaningless-void-operator": "warn",
+  "@typescript-eslint/no-misused-promises": "error",
+  "@typescript-eslint/no-throw-literal": "error",
+  "@typescript-eslint/no-unnecessary-boolean-literal-compare": "warn",
+  "@typescript-eslint/no-unnecessary-condition": ["off", { ignoreRhs: true }],
+  "@typescript-eslint/no-unnecessary-type-assertion": "warn",
+  "@typescript-eslint/no-unnecessary-type-constraint": "error",
+  "@typescript-eslint/prefer-nullish-coalescing": "warn",
+  "@typescript-eslint/prefer-optional-chain": "warn",
+  "@typescript-eslint/require-array-sort-compare": "error",
+  "@typescript-eslint/restrict-template-expressions": ["error", { allowNumber: true, allowBoolean: true, allowAny: true }],
+  "@typescript-eslint/semi": ["warn", "always", { omitLastInOneLineBlock: true }],
+  "@typescript-eslint/switch-exhaustiveness-check": "error",
+  "@typescript-eslint/type-annotation-spacing": "warn",
+
+  // Extension rules
   "@typescript-eslint/brace-style": ["warn", "1tbs", { allowSingleLine: true }],
   "@typescript-eslint/comma-spacing": ["warn"],
   "@typescript-eslint/func-call-spacing": ["warn"],
@@ -21,53 +39,17 @@ module.exports = {
     ignoreComments: false,
     ignoredNodes: ["TemplateLiteral *"]
   }],
-  "@typescript-eslint/naming-convention": [
-    "error",
-    {
-      selector: "default",
-      format: ["camelCase", "PascalCase"]
-    },
-    {
-      selector: "variable",
-      types: ["function"],
-      format: ["camelCase", "PascalCase"]
-    },
-    {
-      selector: "variable",
-      format: ["camelCase", "UPPER_CASE"]
-    },
-    {
-      selector: "parameter",
-      format: ["camelCase"],
-      leadingUnderscore: "allow"
-    },
-    {
-      selector: "memberLike",
-      modifiers: ["private"],
-      format: ["camelCase", "PascalCase", "UPPER_CASE"],
-      leadingUnderscore: "require"
-    },
-    {
-      selector: "typeLike",
-      format: ["PascalCase"]
-    }
-  ],
-  "@typescript-eslint/no-extra-non-null-assertion": "warn",
+  "@typescript-eslint/no-extra-parens": ["warn", "all", { ignoreJSX: "multi-line" }],
   "@typescript-eslint/no-extra-semi": ["warn"],
   "@typescript-eslint/no-implied-eval": "error",
-  "@typescript-eslint/no-misused-promises": [
-    "error",
-    {
-      checksVoidReturn: false
-    }
-  ],
-  "@typescript-eslint/no-throw-literal": "error",
-  "@typescript-eslint/no-unnecessary-boolean-literal-compare": "warn",
-  "@typescript-eslint/no-unnecessary-condition": ["off", { ignoreRhs: true }],
-  // "@typescript-eslint/no-unnecessary-type-arguments": "warn",
-  "@typescript-eslint/no-unnecessary-type-assertion": "warn",
-  "@typescript-eslint/prefer-nullish-coalescing": "warn",
-  "@typescript-eslint/prefer-optional-chain": "warn",
+  "@typescript-eslint/no-shadow": "warn",
   "@typescript-eslint/quotes": ["warn", "double", { avoidEscape: true, allowTemplateLiterals: false }],
-  "@typescript-eslint/restrict-template-expressions": ["error", { allowNumber: true, allowBoolean: true, allowAny: true }]
+  "@typescript-eslint/return-await": "error",
+  "@typescript-eslint/space-before-blocks": ["warn", "always"],
+  "@typescript-eslint/space-before-function-paren": ["warn", {
+    anonymous: "never",
+    named: "never",
+    asyncArrow: "always"
+  }],
+  "@typescript-eslint/space-infix-ops": ["error", { int32Hint: false }]
 };

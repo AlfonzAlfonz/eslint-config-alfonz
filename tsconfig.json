@@ -11,6 +11,10 @@
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true
   },
+  "include": [
+    ".eslintrc.js",
+    "test.tsx"
+  ],
   "exclude": [
     "node_modules"
   ]
